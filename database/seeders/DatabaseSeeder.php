@@ -23,15 +23,15 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // seed crops table
-        Crops::factory(30)->create();
+        // Crops::factory(30)->create();
 
         // 34 56 11 10
-        Recommendations::factory()->create([
-            'potassium' => 34,
-            'nitrogen' => 56,
-            'phosphorus' => 11,
-            'pH' => 10,
-        ]);
+        // Recommendations::factory()->create([
+        //     'potassium' => 34,
+        //     'nitrogen' => 56,
+        //     'phosphorus' => 11,
+        //     'pH' => 10,
+        // ]);
 
     }
 }
