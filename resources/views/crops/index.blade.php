@@ -166,7 +166,7 @@
                 </div>
             </div>
             <!-- Add Vendor Modal  -->
-            <div class="modal fade modal-add-contact" id="addVendor" tabindex="-1"
+            {{-- <div class="modal fade modal-add-contact" id="addVendor" tabindex="-1"
                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="display: none;">
                 <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                     <div class="modal-content">
@@ -251,7 +251,7 @@
                         </form>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div> <!-- End Content -->
     </div>
 </x-app-layout>

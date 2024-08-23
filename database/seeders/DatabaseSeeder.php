@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // seed crops table
-        // Crops::factory(30)->create();
+        Crops::factory(10)->create();
 
         // 34 56 11 10
         // Recommendations::factory()->create([

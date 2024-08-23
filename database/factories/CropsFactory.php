@@ -17,9 +17,6 @@ class CropsFactory extends Factory
     public function definition(): array
     {
         //
-        //
-        //
-        //
         return [
             'cropName' => fake()->name(),
             'botanicalName' => fake()->name(),
