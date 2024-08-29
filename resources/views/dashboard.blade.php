@@ -2,18 +2,7 @@
     $totalusers = App\Models\User::count();
     $totalRecommendations = App\Models\Recommendations::count();
     $totalCrops = App\Models\Crops::count();
-    // $blockedusers = App\Models\User::whereStatus(1)->count();
-    // $activeusers = App\Models\User::whereStatus(0)->count();
-    // $totalticket = App\Models\Ticket::count();
-    // $openticket = App\Models\Ticket::whereStatus(0)->count();
-    // $closedticket = App\Models\Ticket::whereStatus(1)->count();
-    // $totalreview = App\Models\Review::count();
-    // $pubreview = App\Models\Review::whereStatus(1)->count();
-    // $unpubreview = App\Models\Review::whereStatus(0)->count();
 
-    // $pending_card = App\Models\Sellcard::whereStatus(0)->latest()->get();
-    // $publised_review = App\Models\Review::whereStatus(1)->latest()->get();
-    // $unpublished_review = App\Models\Review::whereStatus(0)->latest()->get();
 @endphp
 <x-app-layout>
     <div class="ec-content-wrapper">
